@@ -47,7 +47,7 @@ main hr{
     border: 0;
     background-color: gray;
     margin: 60px 100px;
-    height: 1px;
+    height: 0.1px;
   
 }
 .first-section h1{
@@ -58,27 +58,31 @@ main hr{
     background-color: white;
    
     height: 300px;
-    margin: 100px;
+    /* margin: 0px auto; */
     padding: 20px;
-    
-    
+    /* display: flex;
+    flex-wrap: wrap;
+     width: 80%; */
      border: none;
-     box-shadow: 1px 1px 10px black;
+     box-shadow: 0px 0px 1px rgba(0,0,0,0.5);
       color: black;
       text-align: center;
       border-radius: 5px;
 }
 .first-section-div{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
+    flex-wrap: wrap;
+     width: 80%;
+     margin: 0px auto;
+    
+    /* margin: 50px; */
 }
 .first-section img{
     width: 100px;
     height: 100px;
     border-radius: 100px;
     margin: 10px 50px;
+   
     
 }
 .first-section h1{
@@ -91,25 +95,26 @@ main hr{
 }
 .second-section{
     background-color: white;
-   
+    width: 80%;
     height: auto;
-    margin: 50px;
+    margin: 0px auto;
     padding: 50px;
-
-    
-    display: grid;
-    grid-template-columns: 3fr 3fr 3fr 3fr;
-    grid-gap: 10px;
+    gap: 30px;
+    border: none;
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 3fr 3fr 3fr 3fr; */
+    /* grid-gap: 10px; */
      border: none;
-     box-shadow: 1px 1px 3px black;
+     box-shadow:0px 0px 1px rgba(0,0,0,0.5);
       color: black;
       text-align: center;
       border-radius: 5px;
 
 }
 .card{
-    border: 1px solid black;
-    box-shadow: 2px 2px 5px black;
+    border: none;
+    box-shadow:0px 0px 1px rgba(0,0,0,0.5);
     width: 200px;
     height: 250px;
     border-radius: 5px;
