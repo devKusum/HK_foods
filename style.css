@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-boxs;
+    font-family: arial;
+   
+}
+body{
+    background-color: #f9f7f6;
+    color: black;
+}
+.left{
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background-color:  orangered ;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 20px;
+  
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+
+    color:black;
+     font-size: 1.05rem;
+}
+main{
+  
+     background-color: #f9f7f6;
+}
+main hr{
+    border: 0;
+    background-color: gray;
+    margin: 60px 100px;
+    height: 1px;
+  
+}
+.first-section h1{
+    text-align: center;
+    color: black;
+}
+.first-section{
+    background-color: white;
+   
+    height: 300px;
+    margin: 100px;
+    padding: 20px;
+    
+    
+     border: none;
+     box-shadow: 1px 1px 10px black;
+      color: black;
+      text-align: center;
+      border-radius: 5px;
+}
+.first-section-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+.first-section img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 10px 50px;
+    
+}
+.first-section h1{
+    text-align: center;
+}
+.first-section p{
+    color: gray;
+    font-size: 22px;
+  
+}
+.second-section{
+    background-color: white;
+   
+    height: auto;
+    margin: 50px;
+    padding: 50px;
+
+    
+    display: grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap: 10px;
+     border: none;
+     box-shadow: 1px 1px 3px black;
+      color: black;
+      text-align: center;
+      border-radius: 5px;
+
+}
+.card{
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+.card-title{
+    margin: 5px ;
+}
+.card-footer button {
+    color: black;
+    background-color: orangered;
+    padding: 10px 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+
